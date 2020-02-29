@@ -1,0 +1,107 @@
+html
+{
+    background-color: black;
+}
+header{
+    background-image: url(../Images/header_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    border:1px solid blue;
+}
+header a{
+   
+        
+    color: palegoldenrod;
+    font-size: 40px;
+}
+nav{
+    background-color: dimgrey;
+    padding: 5px;
+}
+nav ul{
+    text-align: center;
+    font-size: 1.2em
+}
+nav ul li{
+    margin: 5px;
+    border: 2px;
+    list-style-type: none;
+    background-color: darkgrey;
+    display: inline;
+    padding: 15px;
+   
+    
+}
+nav ul li:hover{
+    background-color: cadetblue;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+/*#aboutUs{
+    float: left;
+    margin-right: 15px;
+    border: 1px solid grey;
+    */
+    
+}
+section3{
+    float: left;
+    border: 1px solid grey;
+  
+}
+aside{
+    border: .5px solid yellow;
+    width: 18.5%;
+    float: right;
+  
+    
+    
+}
+aside ul li a{
+    color:blue;
+    text-decoration: none;
+    
+}
+aside ul li{
+    list-style-type: none;
+    color: white;
+}
+h2{
+    text-align: center;
+    color: white;
+}
+h3{
+    color: white;
+}
+.col_detail{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 50px;
+    padding: 2px;
+  
+    
+}
+.col_detail img{
+    
+}
+.col_detail p {
+    color: white;
+}
+footer{
+    clear: both;
+    border: 1px solid orange;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: dimgrey;
+    text-align: center;
+}
+footer a{
+    color: white;
+  
+}
