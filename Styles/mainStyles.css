@@ -3,11 +3,12 @@ html
     background-color: black;
 }
 header{
-    background-image: url(../Images/header_image.jpg);
+    background-image: url(../Images/carrots.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 200px;
     border:1px solid blue;
+    border-radius: 15px;
 }
 header a{
    
@@ -18,6 +19,7 @@ header a{
 nav{
     background-color: dimgrey;
     padding: 5px;
+    border-radius: 15px;
 }
 nav ul{
     text-align: center;
@@ -40,6 +42,12 @@ nav ul li a{
     color:white;
     text-decoration: none;
 }
+#active{
+    background-color: cadetblue;
+}
+#active:hover{
+    background-color: darkgray;
+}
 /*#aboutUs{
     float: left;
     margin-right: 15px;
@@ -47,15 +55,30 @@ nav ul li a{
     */
     
 }
-section3{
-    float: left;
-    border: 1px solid grey;
+body{
+    /*float: left;*/
+    border-style: dashed;
+    border-width: 3px;
+    border-left-width: 10px;
+    border-right-width: 10px;
+    border-color: red;
+  
+      
   
 }
+section3 p{
+    text-align: left;
+    color: white;
+}
+
 aside{
-    border: .5px solid yellow;
     width: 18.5%;
+    position: absolute;
+    right: 0%;
+    top:40%;
+    border: .5px solid yellow;
     float: right;
+    border-radius: 15px;
   
     
     
@@ -101,7 +124,44 @@ footer{
     background-color: dimgrey;
     text-align: center;
 }
-footer a{
+.backgroundImageB{
+    background-image: url(../Images/bacon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    margin: 2px;
+}
+
+.backgroundImageC{
+    background-image: url(../Images/carrots.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;   
+    border: 3px solid black;
+    margin: 2px;
+}
+.backgroundImageD{
+    background-image: url(../Images/eggs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+    margin: 2px;
+}
+.col_article{
+    column-count: 3;
+    column-rule: 1px solid white;
+    column-gap: 20px;
+    padding: 2px;
+}
+section h1{
     color: white;
-  
+}
+section p{
+    color: white;
+}
+section3 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
 }
